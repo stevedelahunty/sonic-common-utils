@@ -1,0 +1,19 @@
+Source: sonic-common-utils
+Section: net
+Priority: optional
+Maintainer: Dell <support@dell.com>
+Build-Depends:
+ debhelper (>= 9), dh-autoreconf, libsonic-logging-dev, libxml2-dev
+Standards-Version: 3.9.3
+
+Package: libsonic-common1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: This package contains general utilities for the SONiC project.
+
+Package: libsonic-common-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ libsonic-common1 (= ${binary:Version}), libsonic-logging-dev
+Description: This package contains general utilities for the SONiC project.
+
