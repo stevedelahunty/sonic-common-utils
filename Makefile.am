@@ -32,8 +32,7 @@ src/std_file_utils.c        src/std_select.c      \
 src/std_int_mapping_util.c  src/std_shlib.c       \
 src/std_crc32.c
 
-libsonic_common_la_LDFLAGS = -lxml2 -lpthread -lrt -version-info 1:1:0
-libsonic_common_la_CFLAGS = -I$(top_srcdir)/sonic -I$(includedir)/libxml2 -I$(includedir)/sonic
-libsonic_common_la_CXXFLAGS = -I$(top_srcdir)/sonic -I$(includedir)/libxml2 -std=c++11  -I$(includedir)/sonic
-
-
+libsonic_common_la_CPPFLAGS = -I$(top_srcdir)/sonic -I$(includedir)/libxml2 -I$(includedir)/sonic
+libsonic_common_la_CXXFLAGS = -std=c++11
+libsonic_common_la_LDFLAGS = -shared -version-info 1:1:0
+libsonic_common_la_LIBADD = -lxml2 -lpthread -lrt
