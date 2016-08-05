@@ -35,4 +35,4 @@ src/std_crc32.c
 libsonic_common_la_CPPFLAGS = -I$(top_srcdir)/sonic -I$(includedir)/libxml2 -I$(includedir)/sonic
 libsonic_common_la_CXXFLAGS = -std=c++11
 libsonic_common_la_LDFLAGS = -shared -version-info 1:1:0
-libsonic_common_la_LIBADD = -lxml2 -lpthread -lrt
+libsonic_common_la_LIBADD = -lsonic_logging -lxml2 -lpthread -lrt
