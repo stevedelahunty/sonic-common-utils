@@ -5,6 +5,8 @@ Maintainer: Dell <support@dell.com>
 Build-Depends:
  debhelper (>= 9), dh-autoreconf, libsonic-logging-dev, libxml2-dev
 Standards-Version: 3.9.3
+Vcs-Browser: https://github.com/Azure/sonic-common-utils
+Vcs-Git: https://github.com/Azure/sonic-common-utils.git
 
 Package: libsonic-common1
 Architecture: any
