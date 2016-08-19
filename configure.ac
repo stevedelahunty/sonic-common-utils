@@ -5,7 +5,7 @@ AC_PREREQ([2.69])
 AC_INIT([sonic-common-utils], [1.0.1], [support@dell.com])
 
 AC_CONFIG_HEADERS([config.h])
-AM_INIT_AUTOMAKE([foreign])
+AM_INIT_AUTOMAKE([foreign subdir-objects])
 AC_CONFIG_SRCDIR([.])
 
 # Checks for programs.
