@@ -22,8 +22,6 @@
  * \file   std_radix.c
  * \brief  Radix tree implementation. This implementation of Radix tree is adapted
  *         from the GateD code (rt_radix.c)
- * \date   05-2014
- * \author Prince Sunny
  */
 
 /*---------------------------------------------------------------*\

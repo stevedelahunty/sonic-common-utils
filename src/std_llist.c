@@ -21,8 +21,6 @@
 /*!
  * \file   std_llist.h
  * \brief  Linked list functionality
- * \date   05-2014
- * \author
  */
 
 #include <assert.h>

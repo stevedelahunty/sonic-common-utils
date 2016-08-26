@@ -21,7 +21,6 @@
 /*!
  * \file   std_radix.h
  * \brief  Radix tree implementation with Radical CL support
- * \date   05-2014
  */
 
 #ifndef _RADIX_H_

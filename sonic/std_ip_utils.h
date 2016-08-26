@@ -21,7 +21,6 @@
 /*!
  * \file   std_ip_utils.h
  * \brief  Ip address utility functions
- * \date   05-2014
  */
 
 #ifndef __STD_IP_UTILS_H

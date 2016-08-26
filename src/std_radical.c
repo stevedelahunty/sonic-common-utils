@@ -21,7 +21,6 @@
 /*!
  * \file   std_radical.c
  * \brief  RADIx tree with ChAnge List (RADICAL)
- * \date   05-2014
  */
 
 /*---------------------------------------------------------------*\

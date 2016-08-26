@@ -28,7 +28,6 @@
  *!
  * \file   std_type_defs.h
  * \brief  common definitions
- * \date   04-2014
  */
 
 #ifndef _STD_TYPE_DEFS_H_

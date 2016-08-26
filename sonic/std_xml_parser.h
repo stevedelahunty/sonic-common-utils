@@ -23,7 +23,6 @@
  * \brief  XML Parser wrapper routines for parsing xml files.
  * The APIs are modelled in the line of libxml2 just to facility easy
  * development for those who are familiar with libxml2 library.
- * \date   01-2015
  */
 
 #ifndef _STD_XML_PARSER_H

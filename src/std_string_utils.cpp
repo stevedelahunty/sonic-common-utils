@@ -21,7 +21,6 @@
 /*!
  * \file   std_utils.c
  * \brief  Common utility functions
- * \date   May-2014
  */
 
 #include "std_utils.h"
