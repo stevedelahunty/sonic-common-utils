@@ -16,9 +16,6 @@
 
 /**
  * \file std_shlib_test_lib.c
- * \brief
- *
- * \date: Oct 29, 2014
  */
 
 #include <stdio.h>

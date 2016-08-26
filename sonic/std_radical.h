@@ -21,7 +21,6 @@
 /*!
  * \file   std_radical.h
  * \brief  Radical Change List implementation.
- * \date   05-2014
  */
 
 #ifndef _RADICAL_H_

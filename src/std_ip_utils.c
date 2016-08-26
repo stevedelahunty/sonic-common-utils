@@ -21,8 +21,6 @@
 /*!
  * \file   std_ip_utils.c
  * \brief  Ip address utility functions
- * \date   06-2014
- * \author Prince Sunny/Satish Mynam
  */
 #include <stdio.h>
 #include <string.h>

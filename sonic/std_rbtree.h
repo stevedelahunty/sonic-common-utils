@@ -21,7 +21,6 @@
 /*!
  * \file   std_rbtree.h
  * \brief  Red-Black tree implementation.
- * \date   05-2014
  */
 
 #ifndef _RBTREE_H_

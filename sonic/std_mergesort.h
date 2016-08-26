@@ -22,7 +22,6 @@
  * \file   std_mergesort.h
  * \brief   This header file contains header file definitions Merge Sort
  *          library functions
- * \date   05-2014
  */
 
 #ifndef __STD_MERGE_SORT_H__

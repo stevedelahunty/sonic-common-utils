@@ -21,7 +21,6 @@
 /*!
  * \file   std_rbtree.c
  * \brief  Red-Black tree implementation.
- * \date   05-2014
  */
 
 
