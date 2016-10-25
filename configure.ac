@@ -5,6 +5,7 @@ AC_PREREQ([2.69])
 AC_INIT([sonic-common-utils], [1.0.1], [sonicproject@gmail.com])
 
 AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIRS([m4])
 AM_INIT_AUTOMAKE([foreign subdir-objects])
 AC_CONFIG_SRCDIR([.])
 

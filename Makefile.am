@@ -1,3 +1,4 @@
+ACLOCAL_AMFLAGS=-I m4
 
 #The logging library
 lib_LTLIBRARIES = libsonic_common.la
