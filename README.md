@@ -4,9 +4,9 @@ Common utilities for the SONiC project.
 ## Description
 This repo contains a utilities library used by the sonic project for thread queues, mutex support and many many other items.
 
-If the code is a utilitiy and used by more then one SONiC component, then the code utility should be placed here.
+If the code is a utility and used by more then one SONiC component, then the code utility should be placed here.
 
-Some exampels of this are the event service used by the sonic-object-library.  The API that starts, stops and the infrastructure for events are in the "event" sources while the user is in the sonic-object-library.
+Some examples of this are the event service used by the sonic-object-library.  The API that starts, stops and the infrastructure for events are in the "event" sources while the user is in the sonic-object-library.
 
 
 Building
