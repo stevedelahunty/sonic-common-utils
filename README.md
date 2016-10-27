@@ -14,6 +14,6 @@ See [sonic-nas-manifest](https://github.com/Azure/sonic-nas-manifest) for comple
 * `libsonic-logging1` 
 * `libsonic-logging-dev`
 
-BUILD CMS: sonic_build libsonic-logging1 libsonic-logging-dev -- clean binary
+BUILD CMD: sonic_build libsonic-logging1 libsonic-logging-dev -- clean binary
 
 (c) Dell 2016
