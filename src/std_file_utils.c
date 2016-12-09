@@ -29,7 +29,7 @@
 
 typedef ssize_t (*fo)(int fd, void *data, size_t len);
 
-inline bool is_errno(int rc, int id) {
+static inline bool is_errno(int rc, int id) {
     return rc==-1 && errno==id;
 }
 
